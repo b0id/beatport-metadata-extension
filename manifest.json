@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "BeatportDJ Metadata Tracker",
+  "version": "1.0",
+  "description": "Exports track metadata from BeatportDJ to file for streaming",
+  "permissions": ["activeTab"],
+  "host_permissions": ["https://dj.beatport.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://dj.beatport.com/*"],
+      "js": ["tracker.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
