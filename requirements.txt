@@ -1,0 +1,4 @@
+pylast
+musicbrainzngs
+requests
+python-Levenshtein

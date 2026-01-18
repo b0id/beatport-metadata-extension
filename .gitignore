@@ -1,3 +1,14 @@
 node_modules/
 *.log
 .DS_Store
+
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# API credentials (DO NOT COMMIT!)
+scrobbler-config.json
+
+# Claude planning directory
+.claude/

@@ -1,0 +1,7 @@
+{
+  "listenbrainz_token": "YOUR_LISTENBRAINZ_USER_TOKEN",
+  "lastfm_api_key": "YOUR_LASTFM_API_KEY",
+  "lastfm_api_secret": "YOUR_LASTFM_SHARED_SECRET",
+  "lastfm_username": "your_lastfm_username",
+  "lastfm_password_hash": "YOUR_LASTFM_PASSWORD_HASH"
+}
